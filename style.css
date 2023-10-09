@@ -101,6 +101,7 @@ p2{
     flex-direction: row-reverse;
     gap: 172px;
     max-height: 546px;
+    padding-top: 118px;
 }
 
 /* h3{
@@ -118,7 +119,7 @@ p3{
     width: 445px;
     height: 312px;
     flex-shrink: 0;
-    padding-top: 233px;
+    /* padding-top: 233px; */
     /* padding-left: 209px; */
 }
 
