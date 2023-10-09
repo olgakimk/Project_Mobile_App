@@ -89,7 +89,7 @@ p2{
 .img_2 {
     width: 540px;
     height: 387px;
-    padding-top: 222px;
+    /* padding-top: 222px; */
     /* padding-left: 161px; */
     flex-shrink: 0;
 }
