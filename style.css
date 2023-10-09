@@ -20,6 +20,7 @@ max-width: 445px;
     align-items: center;
     flex-direction: row-reverse;
     gap: 155px;
+    padding: 40px 0;
 }
 
 h1, h2, h3{
@@ -72,7 +73,8 @@ p, p2, p3{
     align-items: center;
     flex-direction: row-reverse;
     gap: 125px;
-    padding-top: 91px;
+    padding: 40px 0;
+    /* padding-top: 91px; */
 }
 
 /* h2{
@@ -101,7 +103,8 @@ p2{
     flex-direction: row-reverse;
     gap: 172px;
     max-height: 546px;
-    padding-top: 118px;
+    padding: 40px 0;
+    /* padding-top: 118px; */
 }
 
 /* h3{
