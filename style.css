@@ -10,7 +10,8 @@ max-width: 445px;
     display: inline-flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;  
+    align-items: center; 
+    width: 100%;
 }
 
 .flexbox {
@@ -71,6 +72,7 @@ p, p2, p3{
     align-items: center;
     flex-direction: row-reverse;
     gap: 125px;
+    padding-top: 91px;
 }
 
 /* h2{
