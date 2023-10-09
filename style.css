@@ -7,15 +7,18 @@ max-width: 445px;
 }
 
 .project{
-    display: block;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;  
 }
 
 .flexbox {
     display: inline-flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 206px;
+    flex-direction: row-reverse;
+    gap: 155px;
 }
 
 h1, h2, h3{
@@ -54,21 +57,20 @@ p, p2, p3{
 
 
 .img_1{
-    max-width: 100%;
     width: 480px;
     height: 315.848px;
     flex-shrink: 0;
-    padding-left: 191px;
+    /* padding-top: 122px;
+    padding-left: 191px; */
 }
 
 
 .flexbox_1{
     display: inline-flex;
-    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 175px;
-    
+    flex-direction: row-reverse;
+    gap: 125px;
 }
 
 /* h2{
@@ -86,16 +88,17 @@ p2{
     width: 540px;
     height: 387px;
     padding-top: 222px;
-    padding-left: 161px;
+    /* padding-left: 161px; */
     flex-shrink: 0;
 }
 
 .flexbox_2{
     display: inline-flex;
-    flex-direction: row-reverse;
     justify-content: center;
-    align-items: center;
-    gap: 223px;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    gap: 172px;
+    max-height: 546px;
 }
 
 /* h3{
@@ -114,7 +117,7 @@ p3{
     height: 312px;
     flex-shrink: 0;
     padding-top: 233px;
-    padding-left: 209px;
+    /* padding-left: 209px; */
 }
 
 button {
@@ -128,5 +131,8 @@ button {
     font-weight: 500;
     line-height: 24px;
     border-radius: 2px;
-   
+}
+
+a{
+    cursor: pointer;
 }
