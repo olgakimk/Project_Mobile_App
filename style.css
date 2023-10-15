@@ -14,7 +14,7 @@ max-width: 445px;
     width: 100%;
 }
 
-.flexbox_2, .flexbox_3, .flexbox_4, .flexbox_5, .flexbox_6{
+.flexbox_2, .flexbox_3, .flexbox_4, .flexbox_5, .flexbox_6, .flexbox_7{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -191,8 +191,13 @@ a{
 }
 
 .flexbox_6{
-    width: 1440px;
+    width: 100%;
+    background: url(images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     }
+
+
 
 h6{
     width: 600px;
@@ -225,7 +230,7 @@ h6{
     font-weight: 500;
     line-height: 66px;
     letter-spacing: 1px;
-    padding: 35px 0 1px 0;
+    padding: 35px 125px 1px 125px;
 }
 
 .price_describe{
@@ -247,29 +252,74 @@ h6{
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    padding-bottom: 9px;
+    /* padding-bottom: 9px; */
+    padding: 60px 125px 9px 125px;
 }
 
-.button__price{
+.button_6{
     width: 189px;
     height: 32px;
     flex-shrink: 0;
     border-radius: 2px;
-    padding: 13px 0 176px 0;
+    margin: 9px 205px 172px 205px;
+}
+
+.flexbox_7{
+    width: 100%;
+    height: 216px;
+    flex-shrink: 0;
+    background: url(/images/background_7.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.landing{
+    text-align: center;
+    color: var(--colour-logo-primary, #37447E);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 26px;
+    font-weight: 900;
+    line-height: 38px;
+    margin: 233px 391px 40px 382px;
+}
+
+.company{
+    color: var(--colour-main-grey-400, #939EA4);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    width: 133px;
+    height: 24px;
+    margin: 68px 382px 47px 165px;
+}
+
+.home{
+    color: var(--colour-main-blue-300, #929ECC);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 245px;
+    height: 24px;
+    flex-shrink: 0;
+    display: flex;
+    margin: 20px 165px 32px 165px;
+    padding: 0;
 }
 
 
-.background_image{
-    width: 2546.932px;
-    height: 938px;
-    flex-shrink: 0;
-    fill: var(--colour-main-blue-100, #E7ECFF);
-    opacity: 0.5;
-    display: flex;
-    justify-content: center;
-    width: 1440px;
-    height: 938px;
-    /* align-content: baseline; */
-    position:absolute;
-} 
 
+.socials{
+    display: inline-flex;
+    margin: 24px 0 36px 665px;
+}
+
+.line{
+    display: flex;
+    align-content: center;
+    width: 1110px;
+    height: 1px;
+    flex-shrink: 0;
+    margin: 40px 165px 76px 165px;
+}
