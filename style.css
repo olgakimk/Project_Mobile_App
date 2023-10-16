@@ -265,12 +265,31 @@ h6{
 }
 
 .flexbox_7{
+    display:flex;
     width: 100%;
     height: 216px;
     flex-shrink: 0;
-    background: url(/images/background_7.svg);
+    background: url(images/background_7.svg);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.top{
+    display:flex;
+    width: 1110px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.bottom{
+    display:flex;
+    width: 1110px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: absolute;
+    margin: 40px 165px 36px 165px;
 }
 
 .landing{
@@ -280,7 +299,6 @@ h6{
     font-size: 26px;
     font-weight: 900;
     line-height: 38px;
-    margin: 233px 391px 40px 382px;
 }
 
 .company{
@@ -288,7 +306,7 @@ h6{
     font-feature-settings: 'clig' off, 'liga' off;
     font-size: 14px;
     font-weight: 500;
-    line-height: 24px;
+    /* line-height: 24px; */
     width: 133px;
     height: 24px;
     margin: 68px 382px 47px 165px;
@@ -308,16 +326,24 @@ h6{
     padding: 0;
 }
 
-
+.button_7{
+    width: 189px;
+    height: 32px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border-radius: 2px;
+    background: var(--colour-main-blue-800, #111B47);
+    margin: 67px 165px 46px 391px;
+    text-align: center;
+}
 
 .socials{
     display: inline-flex;
     margin: 24px 0 36px 665px;
 }
 
-.line{
-    display: flex;
-    align-content: center;
+.img_7{
+    background: #CDD1D4;
     width: 1110px;
     height: 1px;
     flex-shrink: 0;
