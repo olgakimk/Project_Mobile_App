@@ -276,6 +276,7 @@ h6{
 
 .top{
     display:flex;
+    flex-direction: column;
     width: 1110px;
     justify-content: center;
     align-items: center;
@@ -284,12 +285,13 @@ h6{
 
 .bottom{
     display:flex;
+    flex-direction: column;
     width: 1110px;
     justify-content: center;
     align-items: center;
     align-content: center;
-    position: absolute;
     margin: 40px 165px 36px 165px;
+    border:#CDD1D4;
 }
 
 .landing{
@@ -331,7 +333,6 @@ h6{
     height: 32px;
     flex-shrink: 0;
     border-radius: 2px;
-    border-radius: 2px;
     background: var(--colour-main-blue-800, #111B47);
     margin: 67px 165px 46px 391px;
     text-align: center;
@@ -342,10 +343,10 @@ h6{
     margin: 24px 0 36px 665px;
 }
 
-.img_7{
+/* .img_7{
     background: #CDD1D4;
     width: 1110px;
     height: 1px;
     flex-shrink: 0;
     margin: 40px 165px 76px 165px;
-}
+} */
